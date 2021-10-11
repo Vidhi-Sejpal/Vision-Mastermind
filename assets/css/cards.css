@@ -1,0 +1,254 @@
+ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+.challenges  .text p{
+    text-align: justify;
+}
+.challenges .text li{
+    margin-bottom:20px;
+}
+
+.challenges .nav-tabs {
+    border: none;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.challenges .nav-tabs .nav-item {
+    width: 25%;
+}
+.challenges .nav-tabs .nav-item .nav-link i {
+    padding-right: 10px;
+    font-size: 20px;
+}
+.challenges .nav-tabs .nav-item:not(:last-child) .nav-link.active {
+    border-top-color:#e19999;
+}
+.challenges .nav-tabs .nav-item .nav-link.active {
+    background: #fff;
+    color:#e19999;
+    border-top-color:#e19999;
+    border-width:2px;
+}
+.challenges .nav-tabs .nav-item:not(:last-child) .nav-link {
+    border-right: 1px solid #d2d3dc;
+}
+.challenges  .nav-tabs .nav-item .nav-link {
+    background: #edeef3;
+    font-size: 20px;
+    color:#595959;
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    padding: 0;
+    text-align: center;
+    border-radius: 0;
+}
+.challenges-breadcrumb {
+    position: relative;
+}
+.challenges-breadcrumb .breadcrumbs-img img {
+    width: 100%;
+}
+.challenges-breadcrumb .breadcrumbs-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+@media (max-width: 768px){
+    .challenges .nav-tabs {
+        display: flex;
+        justify-content: center;
+    }
+    .challenges-breadcrumb .breadcrumbs-img img {
+        min-height: 250px;
+    }
+    .challenges .nav-tabs .nav-item .nav-link span{
+        /* display: none; */
+    }
+    .form-box{
+        margin-top: 20px !important;
+    }
+}
+
+
+.challenges .benefits{
+    background-color:#F9F9F9;
+    padding:20px;
+}
+.challenges .benefits  .list-group-item{
+    border:0!important;
+    background:transparent;
+    margin: 0px;
+    padding: 10px;
+}
+.challenges .benefits  .main-list{
+    margin-bottom:0!important;
+}
+.challenges .benefits  h5{
+    padding-top:10px;
+}
+
+/*--------------------------------------------------------------
+# Review
+--------------------------------------------------------------*/
+.rating .fa-star{
+  color:#e19999;
+}
+.challenges .review{
+    margin-bottom:20px;
+}
+
+.challenges .comments .row{
+    margin:30px 0;
+}
+.challenges .comment{
+    border-bottom: 1px solid #ebecf2;
+    padding-bottom:20px;
+}
+
+.challenges .review .rating{
+    color:#e19999;
+    width: 100%;
+    height: 200px;
+    background: #f7f8fa;
+    border-radius: 5px;
+    text-align: center;
+    padding: 34px 15px;
+}
+
+
+.challenges .review .rating h6{
+    font-size: 14px;
+    line-height: 28px;
+    color: #5d5a67;
+    margin: 0 0 20px;
+}
+
+.challenges .review-form .element-1{
+    padding:10px 20px;
+    height:56px;
+}
+
+.challenges .review-form .form-control{
+    border:1px solid transparent;
+    margin:10px 0;
+    background:#f5f5f7;
+    color:#7e7c87;
+    box-shadow: none;
+
+}
+.challenges .review-form input:focus,.challenges .review-form textarea:focus{
+    border-color: #e19999;
+}
+.challenges .review-form .button{
+    height:50px;
+    width:200px;
+    border:0;
+    color:white;
+    border-radius:3px;
+    background-color:#595959;
+}
+.challenges .review-form .button:hover{
+    background-color:#e19999;
+}
+
+.challenges .detailed-rating{
+    width: 100%;
+    height: 200px;
+    background: #f7f8fa;
+    border-radius: 5px;
+    padding: 36px 40px;
+}
+.challenges .rate-item{
+    position: relative;
+    padding-left: 25px;
+    padding-right: 55px;
+    margin: 0 0 24px;
+}
+.challenges .rate-item p{
+    position: absolute;
+    left: 0;
+    top: -3px;
+    font-size: 14px;
+    line-height: .8;
+    color: #2c234d;
+    font-weight: 600;
+    margin: 0;
+}
+.challenges .rate-item .progress{
+    height: 6px;
+    border-radius: 30px;
+    background: #e1e4eb;
+}
+.challenges .rate-item .progress-bar{
+    background: #e19999;
+    border-radius: 30px;
+}
+.challenges .rate-item span{
+    position: absolute;
+    right: 0;
+    top: -3px;
+    color: #7e7c87;
+    font-size: 14px;
+    line-height: .8;
+    font-weight: 600;
+}
+.challenges .review-rating{
+    position: relative;
+}
+.challenges .review-rating > h5{
+    font-size: 20px;
+    margin: 0 0 45px;
+}
+.challenges .review-rating ol{
+    margin: 0;
+    padding: 0;
+}
+.challenges .review-rating ol li{
+    list-style: none;
+    display: block;
+}
+.challenges .ratings{
+    display: block;
+    margin: 0 0 3px;
+}
+.challenges .ratings i{
+    font-size: 14px;
+}
+.challenges .ratings i:last-child{
+    color: #c4c2cb;
+}
+
+.form-box{
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 10px 50px 0px rgb(44 44 52 / 8%);
+    padding: 20px;
+    background: #ffffff;
+    z-index: 10;
+    margin-top: -130px;
+}
+.information{
+    margin-top: 20px;
+}
+.information i {
+    margin-right: 10px;
+}
+.information li{
+    list-style: none;
+}
+.information ul li:not(:last-child) {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #eef0f6;
+}
+.rules-info li{
+    margin-left: 20px;
+    text-align: justify;
+}
+
