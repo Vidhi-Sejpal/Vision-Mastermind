@@ -59,9 +59,9 @@ if(review==""){
 }
 console.log("hi review");
 Email.send({
-SecureToken : "1918e517-9b88-4b4d-9cd7-009d61289d48",
-To : 'testercomar@gmail.com',
-From : "testercomar@gmail.com",
+SecureToken : "b1f7057f-a5a7-4834-ab1c-09fd8fa646a9",
+To : 'visionmastermindgroup@gmail.com',
+From : "visionmastermindgroup@gmail.com",
 Subject: "Review for challenge: " + challenge,
 Body: "Name: "+ name + "\n\nEmail: " + email + "\nReview: " + review,
 })

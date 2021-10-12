@@ -282,3 +282,6 @@ ul,li{
     box-shadow: none;
 }
 
+.comments .list-group,.list-group-item{
+    border:0;
+}
