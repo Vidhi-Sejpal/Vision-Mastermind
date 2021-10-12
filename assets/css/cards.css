@@ -118,11 +118,17 @@ ul,li{
 }
 
 .challenges .comments .row{
-    margin:30px 0;
+    margin:10px 0;
 }
+
 .challenges .comment{
     border-bottom: 1px solid #ebecf2;
     padding-bottom:20px;
+}
+.challenges .comment p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: justify;
 }
 
 .challenges .review .rating{
