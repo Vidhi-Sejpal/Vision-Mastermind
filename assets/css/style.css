@@ -425,12 +425,25 @@ section {
   font-weight: 600;
   color: #595959;
 }
+.counts .count-box .info{
+    color: #595959;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-left: 5px; 
+}
 .counts .count-box p {
   padding: 0;
   margin: 0;
   font-size: 20px;
 }
 
+@media (min-width:1024px){
+  .counts .count-box {
+    margin-bottom: 50px;
+  }
+
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -801,13 +814,13 @@ section {
   margin-bottom: 5px;
   color: #6b6b6b;
 }
-.contact .info p {
-  padding: 0 0 10px 60px;
+.contact .info a {
+  padding: 0 0 10px 15px;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 16px;
   color: #6b6b6b;
 }
-.contact .info .email p {
+.contact .info .email a {
   padding-top: 5px;
 }
 .contact .info .social-links {
