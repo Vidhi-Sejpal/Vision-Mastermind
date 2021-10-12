@@ -752,6 +752,39 @@ section {
   color: #e19999;
 }
 /*--------------------------------------------------------------
+# Batches
+--------------------------------------------------------------*/
+
+.batches-card {
+  background: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #e19999;
+  transition: all 0.4s ease;
+  box-shadow: 0px 2px 4px 0px rgb(21 14 56 / 8%);
+}
+
+.batches-card .batches-card-image{
+  overflow: hidden;
+  border-radius: 5px;
+}
+.batches-card .batches-card-image img{
+  width: 100%;
+  transition: all 0.3s ease 0s;
+}
+.batches-card .batches-card-image:hover img{
+  transform: scale(1.1);
+}
+.batches-card .batches-card-content{
+  padding: 16px 0px;
+}
+.batches-card .batches-card-content .batch-title{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #e19999;
+  text-align: center;
+}
+/*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
 #gallery {
