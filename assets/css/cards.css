@@ -2,6 +2,24 @@ ul,li{
     margin: 0px;
     padding: 0px;
 }
+.challenges .breadcrumb {
+    background: rgb(243, 243, 243);
+    padding: 30px !important;
+    width: 100%;
+    margin-top: 52px;
+    margin-bottom: 0px !important;
+}
+
+.challenges .breadcrumb-item {
+    color: #2a2a2a;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.challenges .breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+    font-size: 18px;
+}
 .challenges  .text p{
     text-align: justify;
 }
