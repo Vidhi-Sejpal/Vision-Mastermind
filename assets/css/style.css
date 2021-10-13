@@ -469,19 +469,13 @@ section {
 
 .testimonials .testimonial-item h3 {
   font-size: 18px;
-  font-weight: bold;
-  margin: 25px 0 5px 0;
-  color: #111;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #595959;
-  margin: 0;
+  margin: 45px 0 5px 0;
+  color: #e19999;
+  font-family: 'Capriola', sans-serif;
 }
 
 .testimonials .testimonial-item .fa-quote-left, .testimonials .testimonial-item .fa-quote-right {
-  color: #fceaea;
+  color: #e19999;;
   font-size: 20px;
 }
 
@@ -517,15 +511,14 @@ section {
 }
 
 .testimonials {
-  /* background-color:#ffe5e5; */
   background-image: url('../img/bg.jpg');
   background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+  background-position: center center;
+  background-size: cover;
 }
 
 .testimonials .testimonial-item{
-  padding-bottom:50px;
+  padding-bottom:40px;
 }
 .testimonials .testimonial-item p {
 
@@ -619,6 +612,10 @@ section {
   position: relative;
   overflow: hidden;
 }
+.team .member .member-img img {
+  height: auto;
+  width: 100%;
+}
 .team .member .member-img:after {
   position: absolute;
   content: "";
@@ -626,7 +623,7 @@ section {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background: url(../img/team-shape.svg) no-repeat center bottom;
+  background: url(../img/team/team-shape.svg) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
 }
@@ -699,11 +696,9 @@ section {
 }
 .challenge-image img{
   width: 100%;
-  transition: all 0.3s ease 0s;
+  height: 330px;
 }
-.challenge-image:hover img{
-  transform: scale(1.1);
-}
+
 .challenge-content{
   padding: 16px 0px;
 }
@@ -751,6 +746,12 @@ section {
   right: -10px;
   color: #e19999;
 }
+@media (max-width:768px){
+  .challenge-image img{
+    width: 100%;
+    height: auto;
+  }
+}
 /*--------------------------------------------------------------
 # Batches
 --------------------------------------------------------------*/
@@ -789,7 +790,7 @@ section {
 --------------------------------------------------------------*/
 #gallery {
   background: #fff;
-  padding: 0px 0 0 0 !important;
+  padding: 0px 0 30px 0 !important;
   overflow: hidden;
 }
 
@@ -797,7 +798,7 @@ section {
   position: relative;
   display: block;
   background: #ffffff;
-  padding: 8px;
+  padding: 6px;
   border-radius: 10px;
   box-shadow: 0px 15px 25px 0px rgb(0 0 0 / 10%);
   margin-bottom: 30px;
@@ -806,13 +807,17 @@ section {
 #gallery .gallery-item img {
   transition: transform .5s ease-in-out;
   width: 100%;
-  height: 300px;
+  border-radius: 5px;
 }
+#gallery .gallery-item:hover{
+  transform: scale(1);
+  box-shadow: 0 8px 15px rgb(0 0 0 / 30%);
 
-
+}
+/* 
 #gallery .gallery-item:hover .gallery-overlay {
   opacity: 1;
-}
+} */
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

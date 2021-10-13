@@ -244,6 +244,10 @@ ul,li{
     z-index: 10;
     margin-top: -130px;
 }
+.form-box img{
+    width: 100%;
+    height: auto;
+}
 .information{
     margin-top: 20px;
 }
