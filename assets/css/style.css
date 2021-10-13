@@ -41,13 +41,6 @@ p{
   background: #e38484;
 }
 
-
-
-/* Navbar color change 
-home page title color change
-team card box shadow 
-*/
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -390,7 +383,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 70px 0 60px;
+  padding: 40px 0 ;
 }
 .counts .count-box {
   padding: 30px 30px 25px 30px;
@@ -521,8 +514,7 @@ section {
   padding-bottom:40px;
 }
 .testimonials .testimonial-item p {
-
-  font-style: normal;
+  text-align: justify;
   margin: 15px auto 15px auto;
   height:124px;
   overflow:hidden;
@@ -598,7 +590,7 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
-  padding: 60px 0;
+  padding: 20px 0px !important; 
 }
 .team .member {
   overflow: hidden;
@@ -639,14 +631,14 @@ section {
 }
 .team .member .social a {
   transition: color 0.3s;
-  color: #595959;
+  color: #e19999;
   margin: 15px 12px;
   display: block;
   line-height: 0;
   text-align: center;
 }
 .team .member .social a:hover {
-  color: #e19999;
+  color: #595959;
 }
 .team .member .social i {
   font-size: 18px;
@@ -850,39 +842,19 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #6b6b6b;
+  color: #000;
 }
 .contact .info a {
   padding: 0 0 10px 15px;
   margin-bottom: 20px;
   font-size: 16px;
-  color: #6b6b6b;
+  color: #595959;
 }
 .contact .info .email a {
   padding-top: 5px;
 }
-.contact .info .social-links {
-  padding-left: 60px;
-}
-.contact .info .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #333;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  margin-right: 10px;
-}
-.contact .info .social-links a:hover {
-  background: #47b2e4;
-  color: #fff;
-}
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+
+.contact .info .email:hover i, .contact .info .phone:hover i {
   background: #e19999;
   color: #fff;
 }
@@ -899,12 +871,12 @@ section {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #6b6b6b;
+  color: #000;
 }
 .contact .contact-form .contact-text{
   margin-bottom: 26px;
   font-size: 16px;
-  color: #6b6b6b;
+  color: #595959;
 }
 .contact .contact-form .form-group {
   padding-bottom: 8px;
