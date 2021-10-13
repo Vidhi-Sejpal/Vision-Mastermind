@@ -108,6 +108,15 @@ document.querySelector(".navbar-toggler").addEventListener("click", () => {
     }
   });
 
+  // Preloader
+	$(window).on('load', function() {
+		if ($('#preloader').length) {
+		  $('#preloader').delay(100).fadeOut('slow', function() {
+			$(this).remove();
+		  });
+		}
+	  });
+
   /*Animation on scroll*/
   window.addEventListener('load', () => {
     AOS.init({
