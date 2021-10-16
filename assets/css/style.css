@@ -614,11 +614,20 @@ section {
 }
 .challenges  .text p{
   text-align: justify;
+  font-family: 'Montserrat',sans-serif;
 }
 .challenges .text li{
   margin-bottom:20px;
 }
+.challenges .benefits{
 
+  font-family: 'Montserrat',sans-serif;
+}
+.challenges .rules-info{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 18px;
+  font-color: #595959;
+}
 .challenges .nav-tabs {
   border: none;
   border-radius: 4px;
@@ -706,7 +715,10 @@ section {
       margin-top: 20px !important;
   }
 }
-
+.form-box li{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+}
 .challenges .benefits  h5{
   padding-top:10px;
 }
