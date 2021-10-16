@@ -1384,3 +1384,60 @@ color:#e19999;
     transform: rotate(360deg);
   }
 }
+/*--------------------------------------------------------------
+# Batch Page
+--------------------------------------------------------------*/
+#carouselExampleFade{
+    margin: 0 100px 50px;
+    padding:10px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color:#424240;
+}
+#carouselExampleFade img{
+    border-radius:10px;
+    box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.1);
+}
+#carouselExampleFade .item{
+    /*background-color: rgba(255,255,255,0.20);*/
+    transition: all 0.3s ease-in-out;
+    background-color:#e19999;
+    top:20%;
+    opacity:.3;
+    border-radius: 100%;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+#carouselExampleFade .icon-left{
+width:15%;
+height:20%;
+    position:relative;
+    left:42%;
+}
+#carouselExampleFade .icon-right{
+width:15%;
+height:20%;
+    position:relative;
+    right:42%;
+}
+#carouselExampleFade .item:hover{
+    transition: all 0.3s ease-in-out;
+    opacity:1;
+}
+#carouselExampleFade .item-left:hover{
+transition: all 0.3s ease-in-out;
+    left:-39%;
+}
+#carouselExampleFade .item-right:hover{
+transition: all 0.3s ease-in-out;
+    right:-39%;
+}
+#carouselExampleFade .item-left{
+    transition: all 0.3s ease-in-out;
+    left:-40%;
+}
+#carouselExampleFade .item-right{
+    transition: all 0.3s ease-in-out;
+    right:-40%;
+}
