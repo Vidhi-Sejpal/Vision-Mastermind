@@ -664,6 +664,7 @@ section {
   width: 100%;
   text-align: center;
 }
+/*Change here*/
 @media (max-width: 768px){
   .challenges .nav-tabs {
       display: flex;
@@ -676,11 +677,7 @@ section {
       width: 100%;
       margin-top: 10px;
   }
-  .form-box{
-      margin-top: 20px !important;
-  }
 }
-
 
 .challenges .benefits{
   background-color:#F9F9F9;
@@ -692,9 +689,24 @@ section {
   margin: 0px;
   padding: 10px;
 }
+
+/*Newly added*/
 .challenges .benefits  .main-list{
   margin-bottom:0!important;
+  width: 50%;
 }
+/*Change Here*/
+@media (max-width: 992px){
+
+  .challenges .benefits  .main-list{
+    width: 100%!important;
+  }
+  /*Moved from 768 to here*/
+  .form-box{
+      margin-top: 20px !important;
+  }
+}
+
 .challenges .benefits  h5{
   padding-top:10px;
 }
