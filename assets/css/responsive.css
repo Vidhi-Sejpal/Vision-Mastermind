@@ -7,12 +7,6 @@
   }
 }
 
-@media (max-width: 575px) {
-    #hero .hero-img img {
-      width: 70%;
-    }
-  }
-  
 @media (max-width:768px){
     .row{
         padding: 0px 6px;
@@ -40,9 +34,7 @@
         padding-right: 0px !important;
     }
     #hero h1 {
-        font-size: 36px;
-        margin-top: 30px;
-        color:#595959;
+        font-size: 26px;
         line-height: 36px;
     }
     #hero h2 {
@@ -52,7 +44,7 @@
         margin-bottom: 30px;
     }
     #hero .hero-img img {
-        width: 70%;
+        width: 100%;
     }
     #about-us .content h3{
         font-size: 18px;
@@ -84,9 +76,6 @@
     }
     #hero .hero-img {
       text-align: center;
-    }
-    #hero .hero-img img {
-      width: 60%;
     }
   }
 

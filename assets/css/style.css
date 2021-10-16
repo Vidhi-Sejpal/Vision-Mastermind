@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500&display=swap');
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -174,7 +175,8 @@ button:focus:not(:focus-visible) {
   font-size: 50px;
   font-weight: 500;
   line-height: 86px;
-  font-family: 'Signika', sans-serif;
+  font-family: 'Livvic', sans-serif;
+  /* font-family: 'Signika', sans-serif; */
   /* font-family: 'Capriola', sans-serif; */
 }
 #hero h2 {
