@@ -1010,7 +1010,8 @@ color:#e19999;
   height: 16px;
   margin-top: 7px;
   margin-left:-8px;
-  border: 1px solid #e38484;
+  border: 1px solid #e19999;
+  background: #e19999;
   border-radius: 50%;
 }
 .timeline.timeline-one .timeline-item:after {
@@ -1022,44 +1023,13 @@ color:#e19999;
   width: 1px;
   margin-top: 30px;
   margin-left: -1px;
-  background-color: #e38484;
+  background-color: #e19999;
 }
 .timeline.timeline-one .timeline-item:nth-child(2n + 1) {
   margin-left: 0;
   padding-right: 24px;
   padding-left: 0;
   text-align: right;
-}
-@media (max-width: 575px) {
-  .timeline.timeline-one .timeline-item:nth-child(2n + 1) {
-      padding-right: 0;
-      padding-left: 24px;
-      text-align: left;
-  }
-}
-.timeline.timeline-one .timeline-item:nth-child(2n + 1):after,
-.timeline.timeline-one .timeline-item:nth-child(2n + 1):before {
-  right: 0;
-  left: auto;
-}
-@media (max-width: 575px) {
-  .timeline.timeline-one .timeline-item:nth-child(2n + 1):after,
-  .timeline.timeline-one .timeline-item:nth-child(2n + 1):before {
-      right: auto;
-      left: 0;
-  }
-}
-.timeline.timeline-one .timeline-item:nth-child(2n + 1):before {
-  margin-right:-8px;
-}
-.timeline.timeline-one .timeline-item:nth-child(2n + 1):after {
-  margin-right: -1px;
-}
-.timeline.timeline-one.dark .timeline-item:before {
-  border: 1px solid #b7c3d2;
-}
-.timeline.timeline-one.dark .timeline-item:after {
-  background-color: #b7c3d2;
 }
 
 /*--------------------------------------------------------------
@@ -1357,12 +1327,6 @@ color:#e19999;
   height: 36px;
   transition: 0.3s;
 }
-#footer .footer-top .social-links a:hover {
-  /* background: #e19999;
-  color: #fff;
-  text-decoration: none; */
-}
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1426,7 +1390,7 @@ color:#e19999;
     /*background-color: rgba(255,255,255,0.20);*/
     transition: all 0.3s ease-in-out;
     background-color:#e19999;
-    top:40%;
+    top:28%;
     opacity:.3;
     border-radius: 100%;
     display: inline-block;
@@ -1492,4 +1456,89 @@ transition: all 0.3s ease-in-out;
     right: -17%;
   }
 
+}
+.counter::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.counter {
+  background: url('https://bootstrapmade.com/demo/templates/Techie/assets/img/counts-bg.png') center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#counter-stats {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+#counter-stats  .counting {
+  color: #fff;
+  margin-top: 20px;
+}
+
+#counter-stats  .stats {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Nunito Sans', sans-serif;
+  
+}
+#counter-stats  .stats .fa {
+  color:  #fff;
+  font-size: 40px;
+}
+#counter-stats .counting{
+  margin-top: 0px;
+}
+
+#counter-stats .stats h5{
+  font-family: 'Nunito Sans', sans-serif;
+  color: #fff;
+  font-size: 25px;
+}
+
+.perfomer {
+  border-radius: 25px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  margin: 15px;
+}
+
+.perfomer .thumb {
+  position: relative;
+  border-radius: 50px;
+}
+
+.perfomer:hover .content h4{
+  color: #e19999;
+}
+
+.perfomer .thumb img {
+  border-top-right-radius: 23px;
+  border-top-left-radius: 23px;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+
+
+.perfomer .content {
+  background-color: #fff;
+  text-align: center;
+  padding: 18px 0px;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+
+.perfomer .content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 8px;
+  transition: all .3s;
 }
