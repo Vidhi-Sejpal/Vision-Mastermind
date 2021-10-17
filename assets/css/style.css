@@ -1426,23 +1426,25 @@ color:#e19999;
     /*background-color: rgba(255,255,255,0.20);*/
     transition: all 0.3s ease-in-out;
     background-color:#e19999;
-    top:25%;
+    top:40%;
     opacity:.3;
     border-radius: 100%;
     display: inline-block;
-    width: 20%;
-    height: 40%;
+    width: 11.7%;
+    height: 20%;
 }
 #carouselExampleFade .icon-left{
 width:30%;
 height:35%;
     position:relative;
+    top: 3.3%;
     left:30%;
 }
 #carouselExampleFade .icon-right{
 width:30%;
 height:35%;
     position:relative;
+    top: 3.3%;
     right:30%;
 }
 #carouselExampleFade .item:hover{
@@ -1451,17 +1453,43 @@ height:35%;
 }
 #carouselExampleFade .item-left:hover{
 transition: all 0.3s ease-in-out;
-    left:-24%;
+    left:-19%;
 }
+
 #carouselExampleFade .item-right:hover{
 transition: all 0.3s ease-in-out;
-    right:-24%;
+    right:-19%;
 }
+
 #carouselExampleFade .item-left{
     transition: all 0.3s ease-in-out;
-    left:-25%;
+    left:-20%;
 }
 #carouselExampleFade .item-right{
     transition: all 0.3s ease-in-out;
-    right:-25%;
+    right:-20%;
+}
+@media (max-width: 576px){
+  #carouselExampleFade{
+    margin: 0 8% 2%;
+  }
+  #carouselExampleFade .item{
+    opacity: 1;
+  }
+  #carouselExampleFade .item-left{
+    left: -17%;
+  }
+  #carouselExampleFade .item-right{
+    transition: all 0.3s ease-in-out;
+    right:-17%;
+  }
+  #carouselExampleFade .item-left:hover{
+    transition: none;
+    left: -17%;
+  }
+  #carouselExampleFade .item-right:hover{
+    transition: none;
+    right: -17%;
+  }
+
 }
