@@ -87,7 +87,8 @@ document.querySelector(".navbar-toggler").addEventListener("click", () => {
     loop: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: false,
+      pauseOnMouseEnter:true
     },
     slidesPerView: 'auto',
     pagination: {

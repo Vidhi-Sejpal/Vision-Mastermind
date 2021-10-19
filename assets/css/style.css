@@ -36,7 +36,7 @@ p{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #6c757d;;
+  background: #6c757d;
   border-radius: 10px;
 }
 
@@ -373,11 +373,20 @@ section {
   text-align: justify;
   margin: 15px auto 15px auto;
   height:124px;
-  overflow:hidden;
+  padding-right:5px;
+  overflow-x:hidden;
+  overflow-y:scroll;
 }
 
-.testimonials .testimonial-item p:hover{
-  overflow-y:auto;
+.testimonials .testimonial-item p::-webkit-scrollbar{
+    width:3.5px;
+}
+.testimonials .testimonial-item p::-webkit-scrollbar-thumb{
+    background-color:transparent;
+}
+.testimonials .testimonial-item p:hover::-webkit-scrollbar-thumb{
+    background-color: #6c757d;
+
 }
 
 /*--------------------------------------------------------------
