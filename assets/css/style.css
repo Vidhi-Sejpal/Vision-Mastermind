@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -22,9 +24,10 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
+  color:rgb(12, 10, 10);
 }
 p{
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   line-height: 26px;
 }
 
@@ -635,7 +638,7 @@ section {
 .challenges .rules-info{
   font-family: 'Montserrat',sans-serif;
   font-size: 18px;
-  font-color: #595959;
+  color: #595959;
 }
 .challenges .nav-tabs {
   border: none;
@@ -756,9 +759,13 @@ color:#e19999;
   border-bottom: 1px solid #ebecf2;
   padding-bottom:20px;
 }
+.challenges .comment h3{
+  font-size: 24px;
+}
 .challenges .comment p{
   margin-bottom: 0px;
   margin-top: 10px;
+  font-size: 16px;
   text-align: justify;
 }
 
@@ -1475,17 +1482,9 @@ transition: all 0.3s ease-in-out;
   }
 
 }
-.counter::before {
-  content: "";
-  position: absolute;
-  background: rgba(0, 0, 0, 0.2);
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
+
 .counter {
-  background: url('https://bootstrapmade.com/demo/templates/Techie/assets/img/counts-bg.png') center center no-repeat;
+  background: url('../img/counts-bg.jpeg') center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1503,6 +1502,7 @@ transition: all 0.3s ease-in-out;
 #counter-stats  .stats {
   text-align: center;
   font-size: 35px;
+  color: #fff;
   font-family: 'Nunito Sans', sans-serif;
   
 }

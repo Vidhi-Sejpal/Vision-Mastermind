@@ -54,9 +54,9 @@
         width: 100%;
         height: auto;
     }
-    .rules-guidelines{
-        padding: 0px 10px;
-    }
+    #counter-stats .stats {
+      margin-bottom: 20px;
+  }
     #footer .copyright, #footer .credits {
         float: none;
         text-align: center;
