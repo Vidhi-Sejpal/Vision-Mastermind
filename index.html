@@ -2,611 +2,683 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link rel="icon" href="assets/img/logo.png" type="image/x-icon" />
-  <title>Vision MasterMind</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="assets/img/logo.png" rel="icon" type="image/x-icon"/>
+    <title>Vision MasterMind</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <!-- Vendor CSS Files -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/responsive.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
 
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
 
-  <!-- ======= Header ======= -->
+<!-- ======= Header ======= -->
 
-  <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+<nav aria-label="Main navigation" class="navbar navbar-expand-lg fixed-top navbar-light" id="navbarExample">
     <div class="container">
 
-      <!-- Image Logo -->
-      <a class="navbar-brand logo-image" href="index.html"><img src="assets/img/logo.png" alt="alternative"></a>
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img alt="alternative" src="assets/img/logo.png"></a>
 
-      <!-- Text Logo - Use this if you don't have a graphic logo -->
-      <!-- <a class="navbar-brand logo-text" href="index.html">Nubis</a> -->
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text" href="index.html">Nubis</a> -->
 
-      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button aria-label="Toggle navigation" class="navbar-toggler p-0 border-0" id="navbarSideCollapse"
+                type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav ms-auto navbar-nav-scroll">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#hero">Home</a>
-          </li>
+        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" href="#hero">Home</a>
+                </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="challenge.html">Challenges</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="batches.html">Batches</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Header -->
-
-
-
-  <!-- ======= Home Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container-fluid">
-      <div class="row px-5">
-        <div class="col-lg-7 d-lg-flex flex-lg-column justify-content-center  order-2 order-lg-1" data-aos="fade-up">
-          <div style="z-index: 999;">
-            <h1>Welcome to Vision Mastermind</h1>
-            <h2>A 21 day challenge to promote massive self growth.</h2>
-          </div>
-        </div>
-        <div class="col-lg-5 d-lg-flex flex-lg-column order-1  hero-img" data-aos="fade-up">
-          <img src="assets/img/try.png" class="" alt="" style="width: 120%;height: auto;">
-        </div>
-      </div>
-    </div>
-
-
-
-  </section><!-- End Home -->
-
-
-  <!-- ======= About  Section ======= -->
-  <section id="about-us" class="about-us">
-    <div class="container" data-aos="fade-up">
-      <div class="section-title">
-        <h2>About Us</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-7 content">
-          <h3>"It's amazing how even just a week or month of diligent focus, commitment and discipline can make such a
-            difference. Never underestimate what you can achieve when you go all in."</h3>
-          <p>
-            The Aim of Vision Master Mind is to bring out your truest potential. It is rightly said that it takes 21
-            days to form a habit and following that principle, the principal aim is to bring life altering changes in
-            this 21 days challenge. Being in a group where you are held responsible for your actions every single day
-            will push you harder and make you work. This will help in getting better and stronger than your excuses each
-            day. Above all, it is the perfect opportunity to mould yourself into your best self.
-          </p>
-          <p>It is a community where people come together with a common aim of succeeding in life. Every member of this
-            group strives to achieve the goals they set for themselves and also ensures that the other members are in
-            check. It is a challenging environment where sticking to one’s word is all that matters.
-          </p>
-          <p>
-            You may originate your own plans in accordance with certain rules that are to be followed. People in this
-            group should be willing to assume full responsibility for their actions for the period of the challenge. A
-            strong will to achieve the set goals and a burning desire to finish the challenge is highly promoted
-            here.This is a place to thrive and bring out the best in you, which may have been lost or not found yet at
-            all.
-          </p>
-        </div>
-        <div class="col-lg-5">
-          <img src="assets/img/about-us.png" class="img-fluid" alt="">
-        </div>
-      </div>
-    </div>
-  </section><!-- End About Section -->
-
-  <!-- ======= Counts Section ======= -->
-  <section id="counts" class="counts">
-    <div class="container" data-aos="fade-up">
-
-      <div class="row">
-
-        <div class="col-xl-3 col-lg-6 col-md-6">
-          <div class="count-box">
-            <i class="fa fa-users" aria-hidden="true"></i>
-            <div class="d-flex justify-content-center">
-              <div class="counting" data-count="350">0</div>
-              <h5 class="info">+</h5>
-            </div>
-
-            <p>Participants</p>
-          </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-6 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="fas fa-university"></i>
-            <div class="d-flex justify-content-center">
-              <div class="counting" data-count="50">0</div>
-              <h5 class="info">+</h5>
-            </div>
-            <p>Colleges</p>
-          </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-6 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="far fa-calendar-alt"></i>
-            <div class="d-flex justify-content-center">
-              <div class="counting" data-count="6">0</div>
-              <h5 class="info">+</h5>
-            </div>
-            <p>Batches</p>
-          </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-6 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="fas fa-donate"></i>
-            <div class="d-flex justify-content-center">
-              <div class="counting" data-count="25">0</div>
-              <h5 class="info">+</h5>
-            </div>
-            <p>Sponsors</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Counts Section -->
-
-  <!-- ======= Team Section ======= -->
-  <section id="team" class="team">
-
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>Our Team</h2>
-      </div>
-
-      <div class="row gy-4" style="margin-bottom: 50px;">
-
-        <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-delay="100">
-          <div class="member">
-            <div class="member-img">
-              <img src="assets/img/team/Vidhi Shah.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-            <div class="member-info">
-              <h4>Vidhi Shah</h4>
-              <span>Founder</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="member">
-            <div class="member-img">
-              <img src="assets/img/team/Manasi Varaiya.jpeg"
-                class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-            <div class="member-info">
-              <h4>Manasi Varaiya</h4>
-              <span>xxx</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="member">
-            <div class="member-img">
-              <img src="assets/img/team/Riya Rege.jpeg"
-                class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-            <div class="member-info">
-              <h4>Riya Rege</h4>
-              <span>xxx</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="member">
-            <div class="member-img">
-              <img src="assets/img/team/Kaushal Binjola.jpeg"
-                class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-            <div class="member-info">
-              <h4>Kaushal Binjola</h4>
-              <span>xxx</span>
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-
-    </div>
-
-  </section><!-- End Team Section -->
-
-  <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials" style="padding-top:102px;">
-    <div class="container" data-aos="fade-up">
-      <div class="section-title">
-        <h2>Testimonials</h2>
-      </div>
-
-      <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="testimonial-wrap">
-              <div class="testimonial-item">
-                <p>
-                  <i class="fa fa-quote-left"></i>
-                  A lot of times we think we are screwed up because things aint organized in our lives and probably they
-                  don’t work the way we want to. During these tough times, there is a ray of hope always at the end of
-                  the tunnel. It was when I came across a group started by a student who wanted to enlighten lives of
-                  others and help them achieve their goals. Vision, a great initiative started by Vidhi Shah was a 21
-                  day challenge where every day we were pushed to complete certain tasks of the day. The core objective
-                  was to set a proper routine and bring discipline in way we live our life. I felt honoured to be a part
-                  of this group. Not only it bought me a little closer to the things I wanted to, but also made me
-                  connected to some great minds around.
-                  <i class="fa fa-quote-right"></i>
-                </p>
-                <img src="assets/img/team/Female avatar.jpeg" class="testimonial-img" alt="">
-                <h3>Foram Bhanushali</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-wrap">
-              <div class="testimonial-item">
-                <p>
-                  <i class="fa fa-quote-left"></i>
-                  Taking part in the Vision Mastermind Challenge was a decision I'm super proud of. I experienced bouts
-                  of never-seen-before productivity, and the structure, direction and discipline that were missing from
-                  my daily life were restored right from Day 1. I expected all of these results. However, what I did not
-                  expect was how much fun this challenge would turn out to be. Taking this self-improvement journey with
-                  my friends and an enthusiastic peer group made these 21 Days of waking up before 9 am (among other
-                  things) worthwhile. A huge thank you to Vidhi Shah for organizing everything so well, and for being a
-                  constant motivating force. Cannot wait for Batch 2
-                  <i class="fa fa-quote-right"></i>
-                </p>
-                <img src="assets/img/team/Female avatar.jpeg" class="testimonial-img" alt="">
-                <h3>Aditi Pawar</h3>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-wrap">
-              <div class="testimonial-item">
-                <p>
-                  <i class="fa fa-quote-left"></i>
-                  It was truly helpful and amazing and sincerely there hasn't been a single day I have gotten up after 9
-                  and what's more surprising that I have also woken up at 6:30 which I probably woke up 2 years back.
-                  Also starting to read self-help books was a great benefit to me as I was just reading books on Wattpad
-                  but the books that I am being recommend in this community is doing wonders! This challenge has been
-                  effective and yes habits are getting formed! Thank you very much to the entire team of Vision for not
-                  only helping every one of us grow but also help in achieving goals that were almost considered as a
-                  dream
-                  <i class="fa fa-quote-right"></i>
-                </p>
-                <img src="assets/img/team/Female avatar.jpeg" class="testimonial-img" alt="">
-                <h3>Sneha Kothi</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-wrap">
-              <div class="testimonial-item">
-                <p>
-                  <i class="fa fa-quote-left"></i>
-                  I was sceptical in the begging about whether to take this challenge or no. But then something just
-                  clicked and I decide to go with it. It did take efforts to push myself to try to give 100% for every
-                  task. But I tried my best to be true to my efforts and goals. I did fall back in my efforts in
-                  between. However it pulled myself back from the rabbit hole of procrastination. I was able to start
-                  reading books, the I always wished for but never really worked towards it. I also took a habit of
-                  reading newspaper every day, waking up before 8:30, working out (not because I had to for the sake of
-                  the challenge, but because it really made me feel free and good) , planning my day(which was a mammoth
-                  of a task in itself) and then striving towards working on my daily goals made me feel I'm at least
-                  making some progress. Although a lot is still left to achieve, but I have really started enjoying the
-                  process. Thank you team vision for such a great initiative. I am also certain that I am signing up for
-                  the next batch as well. And I wish to try the delta challenge. Hope that works out
-                  <i class="fa fa-quote-right"></i>
-                </p>
-                <img src="assets/img/team/Female avatar.jpeg" class="testimonial-img" alt="">
-                <h3>Sharvari Tambat</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-wrap">
-              <div class="testimonial-item">
-                <p>
-                  <i class="fa fa-quote-left"></i>
-                  I have to tell you that what you're doing is awesome and you can definitely count me in for future
-                  sessions. Through this challenge I learnt a lot about myself and how I approach my habits. Even though
-                  I received my penalty early in the challenge, just the experience of a few days was amazing. Thanks a
-                  lot for this challenge it was extremely insightful and just what I needed. Please keep us in the loop
-                  for any further challenges you plan.
-                  <i class="fa fa-quote-right"></i>
-                </p>
-                <img src="assets/img/team/Male avatar.jpg" class="testimonial-img" alt="">
-                <h3>Nirav Gujurathi</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-wrap">
-              <div class="testimonial-item">
-                <p>
-                  <i class="fa fa-quote-left"></i>
-                  First and foremost, I'd like to show my thankfulness to this community. It was an incredible
-                  experience because this challenge helped me in improving myself and understanding my self-worth.
-                  Basically, it has given me the confidence that, yes, I can accomplish the tasks that I have set for
-                  myself for the day. I could see the positive changes in my life from the first day of the challenge.
-                  Since last few months, I've never planned my day and never finished the activities I was expected to
-                  finish, possibly due to procrastination. For example, I had been trying for a long time to restart my
-                  habit of reading, but I had never finished a book. But, because of the vision challenge, I'm reading
-                  every day now, and I've finished one book (Atomic Habits) in the last 21 days, and I've already
-                  started reading another!!Once again a huge thanks to this community! Keep up the great work you're
-                  doing, folks!!
-                  <i class="fa fa-quote-right"></i>
-                </p>
-                <img src="assets/img/team/Female avatar.jpeg" class="testimonial-img" alt="">
-                <h3>Ranjana</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="testimonial-wrap">
-              <div class="testimonial-item">
-                <p>
-                  <i class="fa fa-quote-left"></i>
-                  I got 2 more stars increased on hacker rank, read 3 books, could study for long hours and started
-                  waking up early! I owe my rejuvenated spirit to you guys a great job Yes I did relapse at times, yes I
-                  went back to old toxic habits, yes I am still anxious and I don't know where the heck life is taking
-                  me. Even after all these types of entropy universe bestowed upon me, I can say that I am at a much
-                  better place now and want to go further!
-                  <i class="fa fa-quote-right"></i>
-                </p>
-                <img src="assets/img/team/Female avatar.jpeg" class="testimonial-img" alt="">
-                <h3>Avni Uplabdhee</h3>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-
-    </div>
-  </section><!-- End Testimonials Section -->
-
-  <!-- ======= Frequently Asked Questions Section ======= -->
-  <section id="faq" class="faq">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>Frequently Asked Questions</h2>
-      </div>
-
-      <ul class="faq-list accordion" data-aos="fade-up">
-
-        <li>
-          <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">Who can join?
-            <i class="fa fa-chevron-down icon-show" aria-hidden="true"></i>
-            <i class="fa fa-times icon-close" aria-hidden="true"></i>
-          </a>
-          <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Anyone who is ready to follow the 4 rules and achieve their set goals in a period of 21 days with
-              uncompromising dedication.
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">What will I get out of this?
-            <i class="fa fa-chevron-down icon-show" aria-hidden="true"></i>
-            <i class="fa fa-times icon-close" aria-hidden="true"></i>
-          </a>
-          <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              The pleasure and sense of fulfillment after smashing all your goals and having a definite daily routine.
-              Self improvement is the greatest achievement! Along with this, if you finish the challenge, we will reward
-              you with a certificate. Winners might get some exciting goodies too!
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">Do I have to pay anything?
-            <i class="fa fa-chevron-down icon-show" aria-hidden="true"></i>
-            <i class="fa fa-times icon-close" aria-hidden="true"></i>
-          </a>
-          <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              No, this is totally free and open to anyone who is serious about the same.
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">What if I don't get accepted?
-            <i class="fa fa-chevron-down icon-show" aria-hidden="true"></i>
-            <i class="fa fa-times icon-close" aria-hidden="true"></i>
-          </a>
-          <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Your applications will be very carefully studied, as this challenge is to be taken seriously. If, for some
-              reason, you cannot continue, you can drop out. You can always apply again in the coming batches, they run
-              monthly.
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <a data-bs-toggle="collapse" data-bs-target="#faq5" class="collapsed">How can I collaborate with Vision?
-            <i class="fa fa-chevron-down icon-show" aria-hidden="true"></i>
-            <i class="fa fa-times icon-close" aria-hidden="true"></i>
-          </a>
-          <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              We would love to collaborate with you, please get in touch with us regarding the same.
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">404 question not found?
-            <i class="fa fa-chevron-down icon-show" aria-hidden="true"></i>
-            <i class="fa fa-times icon-close" aria-hidden="true"></i>
-          </a>
-          <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Feel free to reach out <a href="https://www.instagram.com/vision_mastermind/?hl=en" target="blank"
-                style="display: inline-block;padding-right: 0px; color: #e19999;"> @vision_mastermind </a> on instagram
-              or contact any of the team members personally.
-            </p>
-          </div>
-        </li>
-
-      </ul>
-
-    </div>
-  </section><!-- End Frequently Asked Questions Section -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 col-md-6  footer-contact">
-            <h3>Vision Mastermind </h3>
-            <p>The Aim of Vision Master Mind is to bring out your truest potential. It is a community where people come
-              together with a common aim of succeeding in life, and sticking to one’s word is all that matters.<br><br>
-              <strong>Phone : </strong><a href="tel:97690 51597">9769051597</a><br>
-              <strong>Email : </strong> <a
-                href="mailto:visionmastermindgroup@gmail.com">visionmastermindgroup@gmail.com</a><br>
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 offset-lg-1 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="challenge.html">Challenges</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="batches.html">Batches</a></li>
-              <li><i class="fa fa-chevron-right"></i> <a href="rules-final.html">Rules and Guidelines</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="challenge.html">Challenges</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="batches.html">Batches</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
             </ul>
-          </div>
+        </div>
+    </div>
+</nav>
+<!-- End Header -->
 
-          <div class="col-lg-2  offset-lg-1 col-md-6 footer-links">
-            <h4>Follow Us </h4>
-            <div class="social-links mt-3">
-              <a href="https://www.instagram.com/vision_mastermind/" target="blank" class="instagram">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/company/vision-mastermind" target="blank" class="linkedin">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a href="https://twitter.com/Vision_MM21" target="blank" class="twitter">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="https://linktr.ee/visionmm" target="blank">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="22" height="22" viewBox="0 0 226 226" style=" fill:#000000;">
-                  <g transform="">
-                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                      stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                      font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                      style="mix-blend-mode: normal">
-                      <path d="M0,226v-226h226v226z" fill="none"></path>
-                      <g fill="#e19999">
-                        <path
-                          d="M88.94042,150.66667h9.93458v37.66667c0,5.17917 -4.2375,9.41667 -9.41667,9.41667h-18.83333c-5.17917,0 -9.41667,-4.2375 -9.41667,-9.41667v-37.66667h-38.18458c-7.15667,0 -11.67667,-7.72167 -8.23958,-13.98375l57.01792,-102.97125c3.57833,-6.45042 12.90083,-6.45042 16.47917,0l22.83542,45.85917l-30.41583,57.11208c-3.43708,6.26208 1.08292,13.98375 8.23958,13.98375z">
-                        </path>
-                        <path
-                          d="M202.97625,150.66667h-38.18458v37.66667c0,5.17917 -4.2375,9.41667 -9.41667,9.41667h-18.83333c-5.17917,0 -9.41667,-4.2375 -9.41667,-9.41667v-37.66667h9.93458c7.15667,0 11.67667,-7.72167 8.23958,-13.98375l-30.88667,-57.11208l23.30625,-45.85917c3.57833,-6.45042 12.90083,-6.45042 16.47917,0l57.01792,102.97125c3.43708,6.26208 -1.08292,13.98375 -8.23958,13.98375z">
-                        </path>
-                      </g>
-                      <path d="" fill="none"></path>
-                    </g>
-                  </g>
-                </svg>
-              </a>
+
+<!-- ======= Home Section ======= -->
+<section class="d-flex align-items-center" id="hero">
+    <div class="container-fluid">
+        <div class="row px-5">
+            <div class="col-lg-7 d-lg-flex flex-lg-column justify-content-center  order-2 order-lg-1"
+                 data-aos="fade-up">
+                <div style="z-index: 999;">
+                    <h1>Welcome to Vision Mastermind</h1>
+                    <h2>A 21 day challenge to promote massive self growth.</h2>
+                </div>
             </div>
-          </div>
+            <div class="col-lg-5 d-lg-flex flex-lg-column order-1  hero-img" data-aos="fade-up">
+                <img alt="" class="" src="assets/img/try.png" style="width: 120%;height: auto;">
+            </div>
+        </div>
+    </div>
+
+
+</section><!-- End Home -->
+
+
+<!-- ======= About  Section ======= -->
+<section class="about-us" id="about-us">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h2>About Us</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-7 content">
+                <h3>"It's amazing how even just a week or month of diligent focus, commitment and discipline can make
+                    such a
+                    difference. Never underestimate what you can achieve when you go all in."</h3>
+                <p>
+                    The Aim of Vision Master Mind is to bring out your truest potential. It is rightly said that it
+                    takes 21
+                    days to form a habit and following that principle, the principal aim is to bring life altering
+                    changes in
+                    this 21 days challenge. Being in a group where you are held responsible for your actions every
+                    single day
+                    will push you harder and make you work. This will help in getting better and stronger than your
+                    excuses each
+                    day. Above all, it is the perfect opportunity to mould yourself into your best self.
+                </p>
+                <p>It is a community where people come together with a common aim of succeeding in life. Every member of
+                    this
+                    group strives to achieve the goals they set for themselves and also ensures that the other members
+                    are in
+                    check. It is a challenging environment where sticking to one’s word is all that matters.
+                </p>
+                <p>
+                    You may originate your own plans in accordance with certain rules that are to be followed. People in
+                    this
+                    group should be willing to assume full responsibility for their actions for the period of the
+                    challenge. A
+                    strong will to achieve the set goals and a burning desire to finish the challenge is highly promoted
+                    here.This is a place to thrive and bring out the best in you, which may have been lost or not found
+                    yet at
+                    all.
+                </p>
+            </div>
+            <div class="col-lg-5">
+                <img alt="" class="img-fluid" src="assets/img/about-us.png">
+            </div>
+        </div>
+    </div>
+</section><!-- End About Section -->
+
+<!-- ======= Counts Section ======= -->
+<section class="counts" id="counts">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+            <div class="col-xl-3 col-lg-6 col-md-6">
+                <div class="count-box">
+                    <i aria-hidden="true" class="fa fa-users"></i>
+                    <div class="d-flex justify-content-center">
+                        <div class="counting" data-count="350">0</div>
+                        <h5 class="info">+</h5>
+                    </div>
+
+                    <p>Participants</p>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-md-6 mt-5 mt-md-0">
+                <div class="count-box">
+                    <i class="fas fa-university"></i>
+                    <div class="d-flex justify-content-center">
+                        <div class="counting" data-count="50">0</div>
+                        <h5 class="info">+</h5>
+                    </div>
+                    <p>Colleges</p>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-md-6 mt-5 mt-lg-0">
+                <div class="count-box">
+                    <i class="far fa-calendar-alt"></i>
+                    <div class="d-flex justify-content-center">
+                        <div class="counting" data-count="6">0</div>
+                        <h5 class="info">+</h5>
+                    </div>
+                    <p>Batches</p>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-md-6 mt-5 mt-lg-0">
+                <div class="count-box">
+                    <i class="fas fa-donate"></i>
+                    <div class="d-flex justify-content-center">
+                        <div class="counting" data-count="25">0</div>
+                        <h5 class="info">+</h5>
+                    </div>
+                    <p>Sponsors</p>
+                </div>
+            </div>
 
         </div>
-      </div>
+
     </div>
-    <!-- End Footer -->
+</section>
+<!-- End Counts Section -->
 
-    <!-- End #main -->
+<!-- ======= Team Section ======= -->
+<section class="team" id="team">
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa fa-angle-double-up"
-        aria-hidden="true"></i></a>
-    <div id="preloader"></div>
+    <div class="container" data-aos="fade-up">
 
-    <!-- Vendor JS Files -->
+        <div class="section-title">
+            <h2>Our Team</h2>
+        </div>
 
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.2/dist/umd/popper.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+        <div class="row gy-4" style="margin-bottom: 50px;">
+
+            <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-delay="100">
+                <div class="member">
+                    <div class="member-img">
+                        <img alt="" class="img-fluid" src="assets/img/team/Vidhi Shah.jpg">
+                        <div class="social">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Vidhi Shah</h4>
+                        <span>Founder</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="member">
+                    <div class="member-img">
+                        <img alt=""
+                             class="img-fluid" src="assets/img/team/Manasi Varaiya.jpeg">
+                        <div class="social">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Manasi Varaiya</h4>
+                        <span>xxx</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="member">
+                    <div class="member-img">
+                        <img alt=""
+                             class="img-fluid" src="assets/img/team/Riya Rege.jpeg">
+                        <div class="social">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Riya Rege</h4>
+                        <span>xxx</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="member">
+                    <div class="member-img">
+                        <img alt=""
+                             class="img-fluid" src="assets/img/team/Kaushal Binjola.jpeg">
+                        <div class="social">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Kaushal Binjola</h4>
+                        <span>xxx</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- End Team Section -->
+
+<!-- ======= Testimonials Section ======= -->
+<section class="testimonials" id="testimonials" style="padding-top:102px;">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h2>Testimonials</h2>
+        </div>
+
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="testimonial-wrap">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="fa fa-quote-left"></i>
+                                A lot of times we think we are screwed up because things aint organized in our lives and
+                                probably they
+                                don’t work the way we want to. During these tough times, there is a ray of hope always
+                                at the end of
+                                the tunnel. It was when I came across a group started by a student who wanted to
+                                enlighten lives of
+                                others and help them achieve their goals. Vision, a great initiative started by Vidhi
+                                Shah was a 21
+                                day challenge where every day we were pushed to complete certain tasks of the day. The
+                                core objective
+                                was to set a proper routine and bring discipline in way we live our life. I felt
+                                honoured to be a part
+                                of this group. Not only it bought me a little closer to the things I wanted to, but also
+                                made me
+                                connected to some great minds around.
+                                <i class="fa fa-quote-right"></i>
+                            </p>
+                            <img alt="" class="testimonial-img" src="assets/img/team/Female avatar.jpeg">
+                            <h3>Foram Bhanushali</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="testimonial-wrap">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="fa fa-quote-left"></i>
+                                Taking part in the Vision Mastermind Challenge was a decision I'm super proud of. I
+                                experienced bouts
+                                of never-seen-before productivity, and the structure, direction and discipline that were
+                                missing from
+                                my daily life were restored right from Day 1. I expected all of these results. However,
+                                what I did not
+                                expect was how much fun this challenge would turn out to be. Taking this
+                                self-improvement journey with
+                                my friends and an enthusiastic peer group made these 21 Days of waking up before 9 am
+                                (among other
+                                things) worthwhile. A huge thank you to Vidhi Shah for organizing everything so well,
+                                and for being a
+                                constant motivating force. Cannot wait for Batch 2
+                                <i class="fa fa-quote-right"></i>
+                            </p>
+                            <img alt="" class="testimonial-img" src="assets/img/team/Female avatar.jpeg">
+                            <h3>Aditi Pawar</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="testimonial-wrap">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="fa fa-quote-left"></i>
+                                It was truly helpful and amazing and sincerely there hasn't been a single day I have
+                                gotten up after 9
+                                and what's more surprising that I have also woken up at 6:30 which I probably woke up 2
+                                years back.
+                                Also starting to read self-help books was a great benefit to me as I was just reading
+                                books on Wattpad
+                                but the books that I am being recommend in this community is doing wonders! This
+                                challenge has been
+                                effective and yes habits are getting formed! Thank you very much to the entire team of
+                                Vision for not
+                                only helping every one of us grow but also help in achieving goals that were almost
+                                considered as a
+                                dream
+                                <i class="fa fa-quote-right"></i>
+                            </p>
+                            <img alt="" class="testimonial-img" src="assets/img/team/Female avatar.jpeg">
+                            <h3>Sneha Kothi</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="testimonial-wrap">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="fa fa-quote-left"></i>
+                                I was sceptical in the begging about whether to take this challenge or no. But then
+                                something just
+                                clicked and I decide to go with it. It did take efforts to push myself to try to give
+                                100% for every
+                                task. But I tried my best to be true to my efforts and goals. I did fall back in my
+                                efforts in
+                                between. However it pulled myself back from the rabbit hole of procrastination. I was
+                                able to start
+                                reading books, the I always wished for but never really worked towards it. I also took a
+                                habit of
+                                reading newspaper every day, waking up before 8:30, working out (not because I had to
+                                for the sake of
+                                the challenge, but because it really made me feel free and good) , planning my day(which
+                                was a mammoth
+                                of a task in itself) and then striving towards working on my daily goals made me feel
+                                I'm at least
+                                making some progress. Although a lot is still left to achieve, but I have really started
+                                enjoying the
+                                process. Thank you team vision for such a great initiative. I am also certain that I am
+                                signing up for
+                                the next batch as well. And I wish to try the delta challenge. Hope that works out
+                                <i class="fa fa-quote-right"></i>
+                            </p>
+                            <img alt="" class="testimonial-img" src="assets/img/team/Female avatar.jpeg">
+                            <h3>Sharvari Tambat</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="testimonial-wrap">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="fa fa-quote-left"></i>
+                                I have to tell you that what you're doing is awesome and you can definitely count me in
+                                for future
+                                sessions. Through this challenge I learnt a lot about myself and how I approach my
+                                habits. Even though
+                                I received my penalty early in the challenge, just the experience of a few days was
+                                amazing. Thanks a
+                                lot for this challenge it was extremely insightful and just what I needed. Please keep
+                                us in the loop
+                                for any further challenges you plan.
+                                <i class="fa fa-quote-right"></i>
+                            </p>
+                            <img alt="" class="testimonial-img" src="assets/img/team/Male avatar.jpg">
+                            <h3>Nirav Gujurathi</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="testimonial-wrap">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="fa fa-quote-left"></i>
+                                First and foremost, I'd like to show my thankfulness to this community. It was an
+                                incredible
+                                experience because this challenge helped me in improving myself and understanding my
+                                self-worth.
+                                Basically, it has given me the confidence that, yes, I can accomplish the tasks that I
+                                have set for
+                                myself for the day. I could see the positive changes in my life from the first day of
+                                the challenge.
+                                Since last few months, I've never planned my day and never finished the activities I was
+                                expected to
+                                finish, possibly due to procrastination. For example, I had been trying for a long time
+                                to restart my
+                                habit of reading, but I had never finished a book. But, because of the vision challenge,
+                                I'm reading
+                                every day now, and I've finished one book (Atomic Habits) in the last 21 days, and I've
+                                already
+                                started reading another!!Once again a huge thanks to this community! Keep up the great
+                                work you're
+                                doing, folks!!
+                                <i class="fa fa-quote-right"></i>
+                            </p>
+                            <img alt="" class="testimonial-img" src="assets/img/team/Female avatar.jpeg">
+                            <h3>Ranjana</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="testimonial-wrap">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="fa fa-quote-left"></i>
+                                I got 2 more stars increased on hacker rank, read 3 books, could study for long hours
+                                and started
+                                waking up early! I owe my rejuvenated spirit to you guys a great job Yes I did relapse
+                                at times, yes I
+                                went back to old toxic habits, yes I am still anxious and I don't know where the heck
+                                life is taking
+                                me. Even after all these types of entropy universe bestowed upon me, I can say that I am
+                                at a much
+                                better place now and want to go further!
+                                <i class="fa fa-quote-right"></i>
+                            </p>
+                            <img alt="" class="testimonial-img" src="assets/img/team/Female avatar.jpeg">
+                            <h3>Avni Uplabdhee</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+</section>
+<!-- End Testimonials Section -->
+
+<!-- ======= Frequently Asked Questions Section ======= -->
+<section class="faq" id="faq">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <ul class="faq-list accordion" data-aos="fade-up">
+
+            <li>
+                <a class="collapsed" data-bs-target="#faq1" data-bs-toggle="collapse">Who can join?
+                    <i aria-hidden="true" class="fa fa-chevron-down icon-show"></i>
+                    <i aria-hidden="true" class="fa fa-times icon-close"></i>
+                </a>
+                <div class="collapse" data-bs-parent=".faq-list" id="faq1">
+                    <p>
+                        Anyone who is ready to follow the 4 rules and achieve their set goals in a period of 21 days
+                        with
+                        uncompromising dedication.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <a class="collapsed" data-bs-target="#faq2" data-bs-toggle="collapse">What will I get out of this?
+                    <i aria-hidden="true" class="fa fa-chevron-down icon-show"></i>
+                    <i aria-hidden="true" class="fa fa-times icon-close"></i>
+                </a>
+                <div class="collapse" data-bs-parent=".faq-list" id="faq2">
+                    <p>
+                        The pleasure and sense of fulfillment after smashing all your goals and having a definite daily
+                        routine.
+                        Self improvement is the greatest achievement! Along with this, if you finish the challenge, we
+                        will reward
+                        you with a certificate. Winners might get some exciting goodies too!
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <a class="collapsed" data-bs-target="#faq3" data-bs-toggle="collapse">Do I have to pay anything?
+                    <i aria-hidden="true" class="fa fa-chevron-down icon-show"></i>
+                    <i aria-hidden="true" class="fa fa-times icon-close"></i>
+                </a>
+                <div class="collapse" data-bs-parent=".faq-list" id="faq3">
+                    <p>
+                        No, this is totally free and open to anyone who is serious about the same.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <a class="collapsed" data-bs-target="#faq4" data-bs-toggle="collapse">What if I don't get accepted?
+                    <i aria-hidden="true" class="fa fa-chevron-down icon-show"></i>
+                    <i aria-hidden="true" class="fa fa-times icon-close"></i>
+                </a>
+                <div class="collapse" data-bs-parent=".faq-list" id="faq4">
+                    <p>
+                        Your applications will be very carefully studied, as this challenge is to be taken seriously.
+                        If, for some
+                        reason, you cannot continue, you can drop out. You can always apply again in the coming batches,
+                        they run
+                        monthly.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <a class="collapsed" data-bs-target="#faq5" data-bs-toggle="collapse">How can I collaborate with Vision?
+                    <i aria-hidden="true" class="fa fa-chevron-down icon-show"></i>
+                    <i aria-hidden="true" class="fa fa-times icon-close"></i>
+                </a>
+                <div class="collapse" data-bs-parent=".faq-list" id="faq5">
+                    <p>
+                        We would love to collaborate with you, please get in touch with us regarding the same.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <a class="collapsed" data-bs-target="#faq6" data-bs-toggle="collapse">404 question not found?
+                    <i aria-hidden="true" class="fa fa-chevron-down icon-show"></i>
+                    <i aria-hidden="true" class="fa fa-times icon-close"></i>
+                </a>
+                <div class="collapse" data-bs-parent=".faq-list" id="faq6">
+                    <p>
+                        Feel free to reach out <a href="https://www.instagram.com/vision_mastermind/?hl=en"
+                                                  style="display: inline-block;padding-right: 0px; color: #e19999;"
+                                                  target="blank">
+                        @vision_mastermind </a> on instagram
+                        or contact any of the team members personally.
+                    </p>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</section>
+<!-- End Frequently Asked Questions Section -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6  footer-contact">
+                    <h3>Vision Mastermind </h3>
+                    <p>The Aim of Vision Master Mind is to bring out your truest potential. It is a community where
+                        people come
+                        together with a common aim of succeeding in life, and sticking to one’s word is all that
+                        matters.<br><br>
+                        <strong>Phone : </strong><a href="tel:97690 51597">9769051597</a><br>
+                        <strong>Email : </strong> <a
+                                href="mailto:visionmastermindgroup@gmail.com">visionmastermindgroup@gmail.com</a><br>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 offset-lg-1 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="fa fa-chevron-right"></i> <a href="index.html">Home</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="challenge.html">Challenges</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="batches.html">Batches</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="rules-final.html">Rules and Guidelines</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2  offset-lg-1 col-md-6 footer-links">
+                    <h4>Follow Us </h4>
+                    <div class="social-links mt-3">
+                        <a class="instagram" href="https://www.instagram.com/vision_mastermind/" target="blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="linkedin" href="https://www.linkedin.com/in/company/vision-mastermind" target="blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="twitter" href="https://twitter.com/Vision_MM21" target="blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linktr.ee/visionmm" target="blank">
+                            <svg height="22" style=" fill:#000000;" viewBox="0 0 226 226" width="22" x="0px"
+                                 xmlns="http://www.w3.org/2000/svg" y="0px">
+                                <g transform="">
+                                    <g fill="none" fill-rule="nonzero" font-family="none" font-size="none"
+                                       font-weight="none"
+                                       stroke="none" stroke-dasharray="" stroke-dashoffset="0"
+                                       stroke-linecap="butt"
+                                       stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="1"
+                                       style="mix-blend-mode: normal"
+                                       text-anchor="none">
+                                        <path d="M0,226v-226h226v226z" fill="none"></path>
+                                        <g fill="#e19999">
+                                            <path
+                                                    d="M88.94042,150.66667h9.93458v37.66667c0,5.17917 -4.2375,9.41667 -9.41667,9.41667h-18.83333c-5.17917,0 -9.41667,-4.2375 -9.41667,-9.41667v-37.66667h-38.18458c-7.15667,0 -11.67667,-7.72167 -8.23958,-13.98375l57.01792,-102.97125c3.57833,-6.45042 12.90083,-6.45042 16.47917,0l22.83542,45.85917l-30.41583,57.11208c-3.43708,6.26208 1.08292,13.98375 8.23958,13.98375z">
+                                            </path>
+                                            <path
+                                                    d="M202.97625,150.66667h-38.18458v37.66667c0,5.17917 -4.2375,9.41667 -9.41667,9.41667h-18.83333c-5.17917,0 -9.41667,-4.2375 -9.41667,-9.41667v-37.66667h9.93458c7.15667,0 11.67667,-7.72167 8.23958,-13.98375l-30.88667,-57.11208l23.30625,-45.85917c3.57833,-6.45042 12.90083,-6.45042 16.47917,0l57.01792,102.97125c3.43708,6.26208 -1.08292,13.98375 -8.23958,13.98375z">
+                                            </path>
+                                        </g>
+                                        <path d="" fill="none"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+<!-- End #main -->
+
+<a class="back-to-top d-flex align-items-center justify-content-center" href="#"><i aria-hidden="true"
+                                                                                    class="fa fa-angle-double-up"></i></a>
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
 
 </body>
 

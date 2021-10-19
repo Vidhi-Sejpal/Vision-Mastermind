@@ -2,39 +2,38 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link rel="icon" href="assets/img/logo.png" type="image/x-icon" />
-  <title>Vision MasterMind | Challenges</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="assets/img/logo.png" rel="icon" type="image/x-icon"/>
+    <title>Vision MasterMind | Challenges</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 
+    <!-- Vendor CSS Files -->
+    <link href='https://use.fontawesome.com/releases/v5.0.1/css/all.css?ver=4.9.1' id='fontawesome-css' media='all'
+          rel='stylesheet' type='text/css'/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet">
+    <link href="https://unpkg.com/swiper@7/swiper-bundle.min.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link rel='stylesheet' id='fontawesome-css' href='https://use.fontawesome.com/releases/v5.0.1/css/all.css?ver=4.9.1'
-    type='text/css' media='all' />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <!--  Css StyleSheet-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
 
-  <!--  Css StyleSheet-->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/responsive.css" rel="stylesheet">
-  
-  <!--SMTPJS LIBRARY-->
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!--SMTPJS LIBRARY-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-  <!--Mailing script-->
-  <script src="assets/js/mail.js" type="text/javascript"></script>
+    <!--Mailing script-->
+    <script src="assets/js/mail.js" type="text/javascript"></script>
 
-  <style>
+    <style>
     .navbar {
       padding-top: 8px;
       padding-bottom: 8px;
@@ -48,374 +47,526 @@
       text-decoration: none;
       transition: all 0.2s ease;
     }
-  </style>
+
+
+    </style>
 </head>
 
 <body>
-  <!-- ======= Header ======= -->
+<!-- ======= Header ======= -->
 
-  <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+<nav aria-label="Main navigation" class="navbar navbar-expand-lg fixed-top navbar-light" id="navbarExample">
     <div class="container">
 
-      <!-- Image Logo -->
-      <a class="navbar-brand logo-image" href="index.html"><img src="assets/img/logo.png" alt="alternative"></a>
-      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img alt="alternative" src="assets/img/logo.png"></a>
+        <button aria-label="Toggle navigation" class="navbar-toggler p-0 border-0" id="navbarSideCollapse"
+                type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav ms-auto ">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="challenge.html">Challenges</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="batches.html">Batches</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Header -->
-  <section id="basic-challenge" class="challenges">
-    <div>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item"><a href="challenge.html">Challenges</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Productivity Challenge : Delta</li>
-        </ol>
-      </nav>
-      <div class="challenges-breadcrumb breadcrumbs-overlay">
-        <div class="breadcrumbs-img">
-          <img src="https://keenitsolutions.com/products/html/educavo/assets/images/breadcrumbs/2.jpg"
-            alt="Breadcrumbs Image">
-        </div>
-        <div class="breadcrumbs-text white-color">
-          <div class="section-title mt-5" style="color: #fff;">
-            <h2>Productivity Challenge : Delta</h2>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-lg-7">
-            <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
-                  role="tab" aria-controls="home" aria-selected="true"><i class="far fa-bookmark"></i>
-                  <span>Overview</span></button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-                  role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i>
-                  <span>Rules</span></button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
-                  role="tab" aria-controls="contact" aria-selected="false"><i
-                    class="fas fa-star"></i><span>Reviews</span></button>
-              </li>
-
+        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="challenge.html">Challenges</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="batches.html">Batches</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
             </ul>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <div class="text">
-                  <p>This is a newer addition to the challenge albeit an optional one. Recommended
-                       for those who have completed the challenge before and want to push
-                        themselves to greater heights.</p>
-                  <p>The Aim of Vision is to bring out your truest potential.It is rightly said that it
-                    takes 21 days to form a habit and following that principle, the principal aim is to bring life
-                    altering
-                    changes in this 21 days challenge. Being in a group where you are held responsible for your actions
-                    every single day will push you harder and make you work. This will help in getting better and
-                    stronger
-                    than your excuses each day. Above all, it is the perfect opportunity to mould yourself into your
-                    best
-                    self.</b></p>
-                  <div class="benefits">
-                    <!-- Changes here -->
-                    <h5><b>How it can benefit you:</b></h5><br>
-                    <ul class="list-group list-group-horizontal-lg">
-                      <li class="list-group-item main-list" style="padding-bottom:0; padding-top:0;">
-                        <ul class="list-group">
-                          <li class="list-group-item items">It can help you to improve your concentration.</li>
-                          <li class="list-group-item items">It can help you to focus on your goals without interruption.</li>
-                          <li class="list-group-item items">You can grow stronger, better and mindful.</li>
-                        </ul>
-                      </li>
-                      <li class="list-group-item main-list" style="padding-top:0;">
-                        <ul class="list-group">
-                          <li class="list-group-item items">Can optimize your mind-set, improve alertness, bring motivation.</li>
-                          <li class="list-group-item items">Having a clear plan for your day helps you make the most of your time and actually accomplish the important things in life.</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
+        </div>
+    </div>
+</nav>
+<!-- End Header -->
 
-                </div>
-              </div>
-              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                <div class="text rules-info">
-                  <p><b>These rules must be followed to complete the challenge successfully: </b>
-                  <ul>
-                    <li>
-                      Wake up before 9am and put a 'good morning' text on the daily updates channel of your respective
-                      groups.
-                    </li>
-                    <li>
-                      Plan you day and put up a screenshot of the same before 11am . ( If you want you can make any
-                      changes
-                      in the planner before 6 pm )
-                    </li>
-                    <li>
-                      Workout for minimum 10 mins and put a screenshot in your personal folder. ( Showing your face is
-                      not
-                      mandatory ,any random picture of your yoga mat, youtube video or shoes etc will work)
-                    </li>
-                    <li>
-                      Read minimum 10 pages of any book (fiction, non-fiction whatever you like).
-                    </li>
-                    <li>
-                      As part of this challenge you have to decide on one habit that you want to gain or lose . once you
-                      have decided on the habit you have to start working on it everyday and upload a screenshot as
-                      proof .
-                      For eg if you decide to eat one bowl of fruits everyday then you will put a snap of your fruit
-                      bowl
-                      etc
-                    </li>
-                  </ul>
-                  </p>
-                </div>
-              </div>
-              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                <div class="row">
-                  <div>
-                    <div class="review">
-                      <h3>Review</h3>
-                      <div class="row">
-                        <div class="col-lg-3">
-                          <h6>Rating</h6>
-                          <div class="rating">
-                            <h1>4.8</h1>
-                            <!-- Change required here -->
-                            <div class="ratings">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span>4 Reviews</span>
-                          </div>
-                        </div>
-                        <div class="col-lg-9">
-                          <h6>Detailed Rating</h6>
-                          <div class="detailed-rating">
-                            <div class="rate-item">
-                              <p>5</p>
-                              <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
-                                  aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                              <span>100%</span>
-                            </div>
-                            <div class="rate-item">
-                              <p>4</p>
-                              <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30"
-                                  aria-valuemin="0" aria-valuemax="30"></div>
-                              </div>
-                              <span>30%</span>
-                            </div>
-                            <div class="rate-item">
-                              <p>3</p>
-                              <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20"
-                                  aria-valuemin="0" aria-valuemax="20"></div>
-                              </div>
-                              <span>20%</span>
-                            </div>
-                            <div class="rate-item">
-                              <p>2</p>
-                              <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10"
-                                  aria-valuemin="0" aria-valuemax="10"></div>
-                              </div>
-                              <span>10%</span>
-                            </div>
-                            <div class="rate-item">
-                              <p>1</p>
-                              <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
-                                  aria-valuemin="0" aria-valuemax="0"></div>
-                              </div>
-                              <span>0%</span>
-                            </div>
-                          </div>
-
-                        </div>
-                      </div>
-
-
-                    </div>
-                    <div class="comments">
-                      <h3>Comments</h3>
-                      <ul class="list-group">
-                      <li class="list-group-item"><div class="row">
-                        <div class="col-lg-2 col-3" style="position:relative;">
-                          <img src="https://quomodosoft.com/html/bisy/assets/images/single-course/r1.png"
-                            class="img-comments">
-                        </div>
-                        <div class="col-lg-10 col-9 comment">
-                          <h3>Name</h3>
-                          <p>August 10th 1945</p>
-                          <p> This challenge change my life. Quis quorum aliqua sint quem legam fore sunt eram irure
-                            aliqua veniam tempor noster veniam enim culpa
-                            labore duis sunt culpa nulla illum cillum fugiat esse veniam culpa fore nisi cillum quid.
-                          </p>
-                        </div>
-                      </div></li>
-                        <li class="list-group-item"><div class="row">
-                        <div class="col-lg-2 col-3" style="position:relative;">
-                          <img src="https://quomodosoft.com/html/bisy/assets/images/single-course/r1.png"
-                            class="img-comments">
-                        </div>
-                        <div class="col-lg-10 col-9 comment">
-                          <h3>Name</h3>
-                          <p>August 10th 1945</p>
-                          <p> This challenge change my life. Quis quorum aliqua sint quem legam fore sunt eram irure
-                            aliqua veniam tempor noster veniam enim culpa
-                            labore duis sunt culpa nulla illum cillum fugiat esse veniam culpa fore nisi cillum quid.
-                          </p>
-                        </div>
-                      </div></li>
-                        <li class="list-group-item"><div class="row">
-                        <div class="col-lg-2 col-3" style="position:relative;">
-                          <img src="https://quomodosoft.com/html/bisy/assets/images/single-course/r1.png"
-                            class="img-comments">
-                        </div>
-                        <div class="col-lg-10 col-9 comment">
-                          <h3>Name</h3>
-                          <p>August 10th 1945</p>
-                          <p> This challenge change my life. Quis quorum aliqua sint quem legam fore sunt eram irure
-                            aliqua veniam tempor noster veniam enim culpa
-                            labore duis sunt culpa nulla illum cillum fugiat esse veniam culpa fore nisi cillum quid.
-                          </p>
-                        </div>
-                      </div></li>
-                        </ul>
-                    </div>
-                    <form method="post" role="form" class="review-form">
-                      <h3 class="mb-3">Write a Review</h3>
-                      <div class="row">
-                        <div class="form-group col-md-6">
-                          <input type="text" placeholder="Your name" name="name" class="form-control element-1" id="name" required>
-                        </div>
-                        <div class="form-group col-md-6">
-                          <input type="email" placeholder="Your Email" class="form-control element-1" name="email" id="email" required>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <textarea id="review" placeholder="Review summary" class="form-control" name="review" rows="7" style="resize:none;" required></textarea>
-                      </div>
-                      <div>
-                        <p id="confirmation"></p>
-                        <input class="btn register" type="button" value="Submit Review" onclick="sendReview('Productivity Delta')" />
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
+<!-- ======= Delta challenge ======= -->
+<section class="challenges" id="basic-challenge">
+    <div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="challenge.html">Challenges</a></li>
+                <li aria-current="page" class="breadcrumb-item active">Productivity Challenge : Delta</li>
+            </ol>
+        </nav>
+        <div class="challenges-breadcrumb breadcrumbs-overlay">
+            <div class="breadcrumbs-img">
+                <img alt="Breadcrumbs Image"
+                     src="https://keenitsolutions.com/products/html/educavo/assets/images/breadcrumbs/2.jpg">
             </div>
-          </div>
-          <div class="col-lg-4 offset-lg-1">
-            <div class="form-box">
-              <img src="assets/img/Challenges/Productivity-Delta.png" class="img-fluid">
-              <div class="information">
-                <ul>
-                  <li>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <i class="far fa-clock"></i>
-                        <span>Duration</span>
-                      </div>
-                      <div>
-                        <span>21 Days</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <i class="fas fa-chart-area"></i>
-                        <span>Level</span>
-                      </div>
-                      <div>
-                        <span>Hard</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <i class="fa fa-users"></i>
-                        <span>Enrolled</span>
-                      </div>
-                      <div>
-                        <!-- To be changed -->
-                        <span>50</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <i class="far fa-list-alt"></i>
-                        <span>Challenges</span>
-                      </div>
-                      <div>
-                        <span>10</span>
-                      </div>
-                    </div>
-                  </li>
+            <div class="breadcrumbs-text white-color">
+                <div class="section-title mt-5" style="color: #fff;">
+                    <h2>Productivity Challenge : Delta</h2>
+                </div>
 
-                </ul>
-              </div>
-              <div class="text-center mt-4">
-                <a href="" class="btn register">Register Now</a>
-              </div>
             </div>
-          </div>
         </div>
 
-      </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-7" data-aos="fade-up">
+                    <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="home" aria-selected="true" class="nav-link active"
+                                    data-bs-target="#home"
+                                    data-bs-toggle="tab"
+                                    id="home-tab" role="tab" type="button"><i class="far fa-bookmark"></i>
+                                <span>Overview</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="profile" aria-selected="false" class="nav-link"
+                                    data-bs-target="#profile"
+                                    data-bs-toggle="tab"
+                                    id="profile-tab" role="tab" type="button"><i class="fas fa-book"></i>
+                                <span>Rules</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="contact" aria-selected="false" class="nav-link"
+                                    data-bs-target="#contact"
+                                    data-bs-toggle="tab"
+                                    id="contact-tab" role="tab" type="button"><i
+                                    class="fas fa-star"></i><span>Reviews</span></button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div aria-labelledby="home-tab" class="tab-pane fade active show" id="home" role="tabpanel">
+                            <div class="text">
+                                <p>This is a newer addition to the challenge albeit an optional one. Recommended
+                                    for those who have completed the challenge before and want to push
+                                    themselves to greater heights.</p>
+                                <p>The Aim of Vision is to bring out your truest potential.It is rightly said that it
+                                    takes 21 days to form a habit and following that principle, the principal aim is to
+                                    bring life
+                                    altering
+                                    changes in this 21 days challenge. Being in a group where you are held responsible
+                                    for your actions
+                                    every single day will push you harder and make you work. This will help in getting
+                                    better and
+                                    stronger
+                                    than your excuses each day. Above all, it is the perfect opportunity to mould
+                                    yourself into your
+                                    best
+                                    self.</p>
+                                <p><em>This is an upgrade to the <strong>Productivity Challenge : Basic</strong></em>
+                                </p>
+                                <div class="benefits">
+                                    <!-- Changes here -->
+                                    <h5><b>How it can benefit you:</b></h5><br>
+                                    <ul class="list-group list-group-horizontal-lg">
+                                        <li class="list-group-item main-list" style="padding-bottom:0; padding-top:0;">
+                                            <ul class="list-group">
+                                                <li class="list-group-item items">It can help you to improve your
+                                                    concentration.
+                                                </li>
+                                                <li class="list-group-item items">It can help you to focus on your goals
+                                                    without interruption.
+                                                </li>
+                                                <li class="list-group-item items">You can grow stronger, better and
+                                                    mindful.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="list-group-item main-list" style="padding-top:0;">
+                                            <ul class="list-group">
+                                                <li class="list-group-item items">Can optimize your mind-set, improve
+                                                    alertness, bring motivation.
+                                                </li>
+                                                <li class="list-group-item items">Having a clear plan for your day helps
+                                                    you make the most of your time and actually accomplish the important
+                                                    things in life.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div aria-labelledby="profile-tab" class="tab-pane fade" id="profile" role="tabpanel">
+                            <div class="text rules-info">
+                                <p><b>These rules must be followed to complete the challenge successfully: </b>
+                                <div class="challenge-rules">
+                                    <ul>
+                                        <li>
+                                            <strong>Wake up before 8 am</strong>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Getting up early means more hours in the day to work, relax, and plan.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <strong>Read 10 pages of any book or article</strong>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Self-help books, autobiographies, and articles give you a broader aspect of
+                                        life.
+                                        They might help you through adverse times when you learn via those who have
+                                        faced similar challenges!
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <strong>Physical AND mental exercise</strong>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Training the physical body and soul at the same time will do wonders for an
+                                        individual. You will move several steps closer to a happier lifestyle.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <strong>Planning the day</strong>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        This is the most important rule and will stay the same in challenge delta. But,
+                                        planning needs to be done strictly before 10 am to make sure you have time to
+                                        complete them. 60% of the tasks are to be completed.
+                                        <em>Whether you have completed the tasks in your planner will also be
+                                            checked.</em>
+                                    </p>
+                                </div>
+                                <div class="note" style="margin-top: 20px;">
+                                    <div class="alert" role="alert">
+                                        <div class="note-title">
+                                            <i class="far fa-lightbulb" style="margin-right:10px;"></i>
+                                            <h6 style="color:#595959; text-align:justify;"><strong>NOTE: There will only
+                                                be a single strike for those undertaking the Challenge Delta!</strong>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div aria-labelledby="contact-tab" class="tab-pane fade" id="contact" role="tabpanel">
+                            <div class="row">
+                                <div>
+                                    <div class="review">
+                                        <h3>Review</h3>
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <h6>Rating</h6>
+                                                <div class="rating">
+                                                    <h1>4.8</h1>
+                                                    <!-- Change required here -->
+                                                    <div class="ratings">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <span>4 Reviews</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <h6>Detailed Rating</h6>
+                                                <div class="detailed-rating">
+                                                    <div class="rate-item">
+                                                        <p>5</p>
+                                                        <div class="progress">
+                                                            <div aria-valuemax="100" aria-valuemin="0"
+                                                                 aria-valuenow="100" class="progress-bar"
+                                                                 role="progressbar" style="width: 100%;"></div>
+                                                        </div>
+                                                        <span>100%</span>
+                                                    </div>
+                                                    <div class="rate-item">
+                                                        <p>4</p>
+                                                        <div class="progress">
+                                                            <div aria-valuemax="30" aria-valuemin="0"
+                                                                 aria-valuenow="30" class="progress-bar"
+                                                                 role="progressbar" style="width: 30%;"></div>
+                                                        </div>
+                                                        <span>30%</span>
+                                                    </div>
+                                                    <div class="rate-item">
+                                                        <p>3</p>
+                                                        <div class="progress">
+                                                            <div aria-valuemax="20" aria-valuemin="0"
+                                                                 aria-valuenow="20" class="progress-bar"
+                                                                 role="progressbar" style="width: 20%;"></div>
+                                                        </div>
+                                                        <span>20%</span>
+                                                    </div>
+                                                    <div class="rate-item">
+                                                        <p>2</p>
+                                                        <div class="progress">
+                                                            <div aria-valuemax="10" aria-valuemin="0"
+                                                                 aria-valuenow="10" class="progress-bar"
+                                                                 role="progressbar" style="width: 10%;"></div>
+                                                        </div>
+                                                        <span>10%</span>
+                                                    </div>
+                                                    <div class="rate-item">
+                                                        <p>1</p>
+                                                        <div class="progress">
+                                                            <div aria-valuemax="0" aria-valuemin="0"
+                                                                 aria-valuenow="0" class="progress-bar"
+                                                                 role="progressbar" style="width: 0%;"></div>
+                                                        </div>
+                                                        <span>0%</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="comments">
+                                        <h3>Comments</h3>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-lg-2 col-3" style="position:relative;">
+                                                        <img class="img-comments"
+                                                             src="https://quomodosoft.com/html/bisy/assets/images/single-course/r1.png">
+                                                    </div>
+                                                    <div class="col-lg-10 col-9 comment">
+                                                        <h3>Name</h3>
+                                                        <p>August 10th 1945</p>
+                                                        <p> This challenge change my life. Quis quorum aliqua sint quem
+                                                            legam fore sunt eram irure
+                                                            aliqua veniam tempor noster veniam enim culpa
+                                                            labore duis sunt culpa nulla illum cillum fugiat esse veniam
+                                                            culpa fore nisi cillum quid.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-lg-2 col-3" style="position:relative;">
+                                                        <img class="img-comments"
+                                                             src="https://quomodosoft.com/html/bisy/assets/images/single-course/r1.png">
+                                                    </div>
+                                                    <div class="col-lg-10 col-9 comment">
+                                                        <h3>Name</h3>
+                                                        <p>August 10th 1945</p>
+                                                        <p> This challenge change my life. Quis quorum aliqua sint quem
+                                                            legam fore sunt eram irure
+                                                            aliqua veniam tempor noster veniam enim culpa
+                                                            labore duis sunt culpa nulla illum cillum fugiat esse veniam
+                                                            culpa fore nisi cillum quid.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row">
+                                                    <div class="col-lg-2 col-3" style="position:relative;">
+                                                        <img class="img-comments"
+                                                             src="https://quomodosoft.com/html/bisy/assets/images/single-course/r1.png">
+                                                    </div>
+                                                    <div class="col-lg-10 col-9 comment">
+                                                        <h3>Name</h3>
+                                                        <p>August 10th 1945</p>
+                                                        <p> This challenge change my life. Quis quorum aliqua sint quem
+                                                            legam fore sunt eram irure
+                                                            aliqua veniam tempor noster veniam enim culpa
+                                                            labore duis sunt culpa nulla illum cillum fugiat esse veniam
+                                                            culpa fore nisi cillum quid.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <form class="review-form" method="post" role="form">
+                                        <h3 class="mb-3">Write a Review</h3>
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <input class="form-control element-1" id="name" name="name"
+                                                       placeholder="Your name" required type="text">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input class="form-control element-1" id="email"
+                                                       name="email" placeholder="Your Email" required type="email">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="review" name="review"
+                                                      placeholder="Review summary" required rows="7"
+                                                      style="resize:none;"></textarea>
+                                        </div>
+                                        <div>
+                                            <p id="confirmation"></p>
+                                            <input class="btn register" onclick="sendReview('Productivity Delta')"
+                                                   type="button"
+                                                   value="Submit Review"/>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1" data-aos="fade-up">
+                    <div class="form-box">
+                        <img class="img-fluid" src="assets/img/Challenges/Productivity-Delta.png">
+                        <div class="information">
+                            <ul>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="far fa-clock"></i>
+                                            <span>Duration</span>
+                                        </div>
+                                        <div>
+                                            <span>21 Days</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="fas fa-chart-area"></i>
+                                            <span>Level</span>
+                                        </div>
+                                        <div>
+                                            <span>Hard</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="fa fa-users"></i>
+                                            <span>Enrolled</span>
+                                        </div>
+                                        <div>
+                                            <!-- To be changed -->
+                                            <span>50</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="far fa-list-alt"></i>
+                                            <span>Challenges</span>
+                                        </div>
+                                        <div>
+                                            <span>10</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a class="btn register" href="">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
     </div>
-  </section>
+</section>
+<!-- End challenge-->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa fa-angle-double-up"
-    aria-hidden="true"></i></a>
-    <div id="preloader"></div>
+<!--  Footer start-->
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6  footer-contact">
+                    <h3>Vision Mastermind </h3>
+                    <p>The Aim of Vision Master Mind is to bring out your truest potential. It is a community where
+                        people come
+                        together with a common aim of succeeding in life, and sticking to one’s word is all that
+                        matters.<br><br>
+                        <strong>Phone : </strong><a href="tel:97690 51597">9769051597</a><br>
+                        <strong>Email : </strong> <a
+                                href="mailto:visionmastermindgroup@gmail.com">visionmastermindgroup@gmail.com</a><br>
+                    </p>
+                </div>
 
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+                <div class="col-lg-3 col-md-6 offset-lg-1 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="fa fa-chevron-right"></i> <a href="index.html">Home</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="challenge.html">Challenges</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="batches.html">Batches</a></li>
+                        <li><i class="fa fa-chevron-right"></i> <a href="rules-final.html">Rules and Guidelines</a></li>
+                    </ul>
+                </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.2/dist/umd/popper.min.js"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+                <div class="col-lg-2  offset-lg-1 col-md-6 footer-links">
+                    <h4>Follow Us </h4>
+                    <div class="social-links mt-3">
+                        <a class="instagram" href="https://www.instagram.com/vision_mastermind/" target="blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="linkedin" href="https://www.linkedin.com/in/company/vision-mastermind" target="blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="twitter" href="https://twitter.com/Vision_MM21" target="blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linktr.ee/visionmm" target="blank">
+                            <svg height="22" style=" fill:#000000;" viewBox="0 0 226 226" width="22" x="0px"
+                                 xmlns="http://www.w3.org/2000/svg" y="0px">
+                                <g transform="">
+                                    <g fill="none" fill-rule="nonzero" font-family="none" font-size="none"
+                                       font-weight="none"
+                                       stroke="none" stroke-dasharray="" stroke-dashoffset="0"
+                                       stroke-linecap="butt"
+                                       stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="1"
+                                       style="mix-blend-mode: normal"
+                                       text-anchor="none">
+                                        <path d="M0,226v-226h226v226z" fill="none"></path>
+                                        <g fill="#e19999">
+                                            <path
+                                                    d="M88.94042,150.66667h9.93458v37.66667c0,5.17917 -4.2375,9.41667 -9.41667,9.41667h-18.83333c-5.17917,0 -9.41667,-4.2375 -9.41667,-9.41667v-37.66667h-38.18458c-7.15667,0 -11.67667,-7.72167 -8.23958,-13.98375l57.01792,-102.97125c3.57833,-6.45042 12.90083,-6.45042 16.47917,0l22.83542,45.85917l-30.41583,57.11208c-3.43708,6.26208 1.08292,13.98375 8.23958,13.98375z">
+                                            </path>
+                                            <path
+                                                    d="M202.97625,150.66667h-38.18458v37.66667c0,5.17917 -4.2375,9.41667 -9.41667,9.41667h-18.83333c-5.17917,0 -9.41667,-4.2375 -9.41667,-9.41667v-37.66667h9.93458c7.15667,0 11.67667,-7.72167 8.23958,-13.98375l-30.88667,-57.11208l23.30625,-45.85917c3.57833,-6.45042 12.90083,-6.45042 16.47917,0l57.01792,102.97125c3.43708,6.26208 -1.08292,13.98375 -8.23958,13.98375z">
+                                            </path>
+                                        </g>
+                                        <path d="" fill="none"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!--  Footer end-->
+
+<!-- Back to top button-->
+<a class="back-to-top d-flex align-items-center justify-content-center" href="#"><i aria-hidden="true"
+                                                                                    class="fa fa-angle-double-up"></i></a>
+
+<div id="preloader"></div>
+
+<!-- Vendor scripts-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.2/dist/umd/popper.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>

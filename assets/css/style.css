@@ -722,7 +722,13 @@ section {
 .challenges .benefits  h5{
   padding-top:10px;
 }
-
+.challenges .rules-info .challenge-rules li{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+}
+.challenges .rules-info .challenge-rules p{
+    padding-left: 2rem;
+}
 /*--------------------------------------------------------------
 # Review
 --------------------------------------------------------------*/
@@ -1212,6 +1218,11 @@ color:#e19999;
   text-align: justify;
   margin-bottom: 0px;
 }
+.rules-guidelines p{
+    padding-left:2rem;
+    text-align: justify;
+    font-family:"Montserrat",sans-serrif;
+}
 
 .rules-guidelines.bottom ul li{
   padding: 12px;
@@ -1223,9 +1234,7 @@ color:#e19999;
   color: #595959;
   padding-bottom: 10px;
 }
-.rules-guidelines  p{
-  text-align: justify;
-}
+
 .rules-guidelines strong{
   font-weight:bold;
 }
