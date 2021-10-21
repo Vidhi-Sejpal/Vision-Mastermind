@@ -1487,7 +1487,7 @@ transition: all 0.3s ease-in-out;
 }
 
 .counter {
-  background: url('../img/counts-bg.jpeg') center center no-repeat;
+  background: url('../img/counts-bg.jpg') center center no-repeat;
   background-size: cover;
   position: relative;
 }
